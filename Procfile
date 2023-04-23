@@ -1,0 +1,1 @@
+web: java -jar java-getting-started-1.0.0-SNAPSHOT.jar
