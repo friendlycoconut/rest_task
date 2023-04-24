@@ -77,7 +77,7 @@ class AirportController {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://mboum-finance.p.rapidapi.com/qu/quote?symbol=" + stock))
                 .header("content-type", "application/octet-stream")
-                .header("X-RapidAPI-Key", "1b397ec363mshd5ae9c890137477p1734b5jsn0aaddf3cc5a0")
+                .header("X-RapidAPI-Key", "")
                 .header("X-RapidAPI-Host", "mboum-finance.p.rapidapi.com")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
